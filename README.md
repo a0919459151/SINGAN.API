@@ -7,9 +7,9 @@
 url:http://localhost:5216/swagger/index.html
 
 ## api endpoint
-GET http://localhost:5216/api/Applicant  取得申請者列表
-GET http://localhost:5216/api/Applicant/{id} 取得申請者資料
-POST http://localhost:5216/api/Applicant 新增申請者資料
+- GET http://localhost:5216/api/Applicant  取得申請者列表
+- GET http://localhost:5216/api/Applicant/{id} 取得申請者資料
+- POST http://localhost:5216/api/Applicant 新增申請者資料
 
 # get start
 ## 安裝 ef 資料庫遷移工具
