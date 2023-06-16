@@ -14,7 +14,9 @@ url:http://localhost:5216/swagger/index.html
 # get start
 ## 安裝 ef 資料庫遷移工具
 dotnet tool install -g dotnet-ef
-    or 
+
+    or
+    
 dotnet tool update -g dotnet-ef
 
 ## 設定連線字串
@@ -24,6 +26,7 @@ DefaultConnection: "Server=localhost;database=<db name>;User Id=<username>;Passw
 
 ## db migrations (code first)
 dotnet ef migrations add Init
+
 dotnet ef database update
 
 ## run
