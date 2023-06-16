@@ -15,7 +15,7 @@ url:http://localhost:5216/swagger/index.html
 ## 安裝 ef 資料庫遷移工具
 dotnet tool install -g dotnet-ef
 
-    or
+or
     
 dotnet tool update -g dotnet-ef
 
